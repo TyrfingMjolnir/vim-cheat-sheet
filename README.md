@@ -83,7 +83,8 @@ Nouns or movements are commands for moving within the document or representing a
 | Ctrl-B     | page up                                                               |
 | Ctrl-F     | page down                                                             |
 | 0          | move to the very beginning of the current line                        |
-| ^          | move to the first non-whitespace character on the line                |
+| ^ or _     | move to the first non-whitespace character on the line                |
+| _          | move to the current line WTF ?!? (useful for making commands line-based)      |
 | $          | move to the end of the line                                           |
 | w, b       | move to the next/previous word                                        |
 | W, B       | as w/b only Words are bigger                                          |
@@ -92,7 +93,6 @@ Nouns or movements are commands for moving within the document or representing a
 | /[regexp]  | like t but instead of finding a character, it finds a regexp          |
 | ?[regexp]  | like `/`, but search in opposite direction                            |
 | %          | jump to the matching parenthesis (vim understands nested parenthesis) |
-| _          | move to the current line (useful for making commands line-based)      |
 | #[char]    | jump to the previous instance of the word under [char]                |
 | >>         | indent line                                                           |
 | <<         | outdent line                                                          |

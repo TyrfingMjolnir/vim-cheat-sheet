@@ -10,6 +10,19 @@ In this document, I'll share with you my Vim learnings, listing everyday command
 
 Vim commands are formed from a combination of verbs and targets. The targets could be objects (words, sentences, paragraphs, lines, the contents of parentheses) or movements (jump to the end of a word, jump to end of the paragraph, jump forward until the letter ‘e’, etc). Forming objects generally involves the use of a modifier. You can also add a count to perform the action count times.
 
+### Legend
+
+| Character | description                                                       |
+|---------|---------------------------------------------------------------------|
+| { }     | labia a k a curly brackets                                          |
+| ( )     | brackets                                                            |
+| [ ]     | square brackets                                                     |
+| < >     | angle brackets
+| ~       | tilde |
+| `       | grave |
+| ```     | tripple grave |
+
+
 ### Commands
 
 |         |                                                                     |
@@ -131,6 +144,9 @@ Nouns or movements are commands for moving within the document or representing a
 | Ctrl-c   | exit insert mode                                                                                                                                          |
 | Ctrl-ww  | window switching                                                                                                                                          |
 | gg=G     | Autoformat/indent code                                                                                                                                    |
+| v%       | visually select scope with curly braces, requires cursor on { or } |
+| vi%      | visually select scope content, requires cursor on { or } |
+
 
 ## Registers
 

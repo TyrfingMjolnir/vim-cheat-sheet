@@ -67,40 +67,41 @@ Vim commands are formed from a combination of verbs and targets. The targets cou
 
 Nouns or movements are commands for moving within the document or representing an area within a document.
 
-|            |                                                                       |
-|------------|-----------------------------------------------------------------------|
-| h, j, k, l | move, equivalent to the arrow keys left, down, up, right              |
-| H          | move to the top of screen                                             |
-| M          | move to the middle of screen                                          |
-| L          | move to the bottom of screen                                          |
-| zz         | scroll the line with the cursor to the center of the screen           |
-| zt         | scroll the line with the cursor to the top                            |
-| zb         | scroll the line with the cursor to the bottom                         |
-| gg         | go to the first line                                                  |
-| G          | go to the last line                                                   |
-| Ctrl-D     | move half-page down                                                   |
-| Ctrl-U     | move half-page up                                                     |
-| Ctrl-B     | page up                                                               |
-| Ctrl-F     | page down                                                             |
-| 0          | move to the very beginning of the current line                        |
-| ^ or _     | move to the first non-whitespace character on the line                |
-| _          | move to the current line WTF ?!? (useful for making commands line-based)      |
-| $          | move to the end of the line                                           |
-| w, b       | move to the next/previous word                                        |
-| W, B       | as w/b only Words are bigger                                          |
-| ), (       | move to the next/previous sentence                                    |
-| }, {       | move to the next/previous paragraph                                   |
-| /[regexp]  | like t but instead of finding a character, it finds a regexp          |
-| ?[regexp]  | like `/`, but search in opposite direction                            |
-| %          | jump to the matching parenthesis (vim understands nested parenthesis) |
-| #[char]    | jump to the previous instance of the word under [char]                |
-| >>         | indent line                                                           |
-| <<         | outdent line                                                          |
-| >>         | indent line (shift line one shiftwidth rightwards)                    |
-| <<         | outdent line (shift line one shiftwidth leftwards)                    |
-| ==         | reindent current line                                                 |
-| *[char]    | jump to the next instance of the word under [char]                    |
-| ddp / ddkP | are common commands to move a line one down / up                      |
+|            |                                                                       |    |
+|------------|-----------------------------------------------------------------------|----|
+| h, j, k, l | move, equivalent to the arrow keys left, down, up, right              |    |
+| H          | move to the top of screen                                             |    |
+| M          | move to the middle of screen                                          |    |
+| L          | move to the bottom of screen                                          |    |
+| zz         | scroll the line with the cursor to the center of the screen           |    |
+| zt         | scroll the line with the cursor to the top                            |    |
+| zb         | scroll the line with the cursor to the bottom                         |    |
+| gg         | go to the first line                                                  |    |
+| G          | go to the last line                                                   |    |
+| Ctrl-D     | move half-page down                                                   |    |
+| Ctrl-U     | move half-page up                                                     |    |
+| Ctrl-B     | page up                                                               |    |
+| Ctrl-F     | page down                                                             |    |
+| 0          | move to the very beginning of the current line                        |    |
+| ^ or _     | move to the first non-whitespace character on the line                |    |
+| g_         | move to the last non-whitespace character on the line                 |    |
+| _          | move to the current line (useful for making commands line-based)      | WTF ?!?    | 
+| $          | move to the end of the line                                           |    |
+| w, b       | move to the next/previous word                                        |    |
+| W, B       | as w/b only Words are bigger                                          |    |
+| ), (       | move to the next/previous sentence                                    |    |
+| }, {       | move to the next/previous paragraph                                   |    |
+| /[regexp]  | like t but instead of finding a character, it finds a regexp          |    |
+| ?[regexp]  | like `/`, but search in opposite direction                            |    |
+| %          | jump to the matching parenthesis (vim understands nested parenthesis) |    |
+| #[char]    | jump to the previous instance of the word under [char]                |    |
+| >>         | indent line                                                           |    |
+| <<         | outdent line                                                          |    |
+| >>         | indent line (shift line one shiftwidth rightwards)                    |    |
+| <<         | outdent line (shift line one shiftwidth leftwards)                    |    |
+| ==         | reindent current line                                                 |    |
+| *[char]    | jump to the next instance of the word under [char]                    |    |
+| ddp / ddkP | are common commands to move a line one down / up                      |    |
 
 ## Useful
 

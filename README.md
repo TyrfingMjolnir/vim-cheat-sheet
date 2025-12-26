@@ -19,8 +19,13 @@ Vim commands are formed from a combination of verbs and targets. The targets cou
 | [ ]     | square brackets                                                     |
 | < >     | angle brackets
 | ~       | tilde |
+| ´       | acute |
 | `       | grave |
 | ```     | tripple grave |
+| '       | foot |
+| "       | inch |
+| ''       | single quote |
+| ""       | double quote |
 
 
 ### Commands

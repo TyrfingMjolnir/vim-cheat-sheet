@@ -33,7 +33,8 @@ Vim commands are formed from a combination of verbs and targets. The targets cou
 |         |                                                                     |
 |---------|---------------------------------------------------------------------|
 | v       | enter visual mode                                                   |
-| V       | enter visual mode and select current line                           |
+| shift + v | enter visual mode and select current line                           |
+| ctrl + v | enter visual block mode                           |
 | c       | change                                                              |
 | cc      | delete current line and then enter insert mode                      |
 | C       | Delete from the cursor position to the end of the line then enter insert mode |
